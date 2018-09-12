@@ -30,5 +30,31 @@
         <td><%= contact.email %></td>
       </tr>
     <% end %>
-  </tbody>
+    <tr></tr>
+      <tr>
+        <td><b>Add New Contact</b></td>
+      </tr>
+      <tr>
+        <%= form_tag('/contacts') do -%>
+            <td>
+              <%= label_tag :first_name %>
+              <%= text_field_tag :first_name %> 
+            </td>    
+            <td>
+              <%= label_tag :last_name %>
+              <%= text_field_tag :last_name %> 
+            </td>
+            <td>
+              <%= label_tag :phone_number %>
+              <%= text_field_tag :phone_number %>
+            </td>
+            <td>
+              <%= label_tag :email %>
+              <%= text_field_tag :email %>
+            </td>
+            <td>
+              <%= submit_tag "Submit" %>
+            </td>
+        <%end%>
+      </tr>
 </table>
