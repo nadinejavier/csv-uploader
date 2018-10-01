@@ -1,24 +1,14 @@
-# README
+<h3><b> CSV Uploader </b></h3>
+<p> Simple contact management app that imports and exports CSV files. </p>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Rails 5.1.6 <br>
+PostgreSQL 9.6.2
 
-* Ruby version
+<b>Prerequisites </b>
+<p> In Gemfile: </p><br>
 
-* System dependencies
+```ruby
+gem 'csv'
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
