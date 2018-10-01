@@ -21,4 +21,7 @@ class ContactsController < ApplicationController
       )
     redirect_to root_url notice: 'Contact created!'
   end
+
+
+
 end
